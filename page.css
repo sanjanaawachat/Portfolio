@@ -1,0 +1,306 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    margin-top: 20px;
+    background-color: rgb(237, 154, 76);
+    height: 70px;
+    width: 100%;
+}
+label.logo{
+    color: rgb(144, 21, 21);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     line-height: 80px; 
+     padding: 0 20px; 
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(106, 6, 6);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;    
+}
+
+a.active,a:hover{
+ color: rgb(4, 43, 102);
+ transition: .5s;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.bigcontainer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(13, 84, 103);
+    color: white;
+}
+.heading{
+    position: relative;
+    top: 100px; 
+    text-align: left;
+    margin-left: 25px;    
+}
+p{
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img1{
+    position: relative;
+    top: -50px;
+    float: right;
+    width: 450px;
+    height: 350px;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+.img1:hover{
+    curser:pointer;
+    transition: all 0.5s;
+    width: 580px;
+   
+}
+.btn-container{
+    position: absolute;
+    top: 300px;
+    margin-left: 30px;
+}
+.btn{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(237, 154, 76);
+    color: white;
+    border-radius: 16px;
+}
+.btn:hover{
+    cursor: pointer;
+    /* background-color: white; */
+    background-color: brown;
+    border-color: yellow;
+}
+.section-1{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+ .comp-1{
+    position: relative;
+    left: 520px;
+    top: 35px;
+   font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    
+ }
+.img2{
+    position: relative;
+    top: -40px;
+    float: left;
+    width: 450px;
+    height: 350px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#para-1{
+     float: right; 
+    width: 500px;
+    font-weight: 100;
+  text-align: left;
+  font-weight: 100;
+  font-size: 17px;
+}
+ 
+#para-3{
+    float: right; 
+   width: 500px;
+   font-weight: 100;
+   font-size: 17px;
+ 
+}
+.img-container{
+ position: relative;
+ left: 90px;
+}
+.img3{
+
+    width: 350px;
+    position: relative;
+    left: 70px;
+    
+}
+.img4{
+    width: 40px;
+    height: 40px;
+}
+.img4:hover{
+    transition: all 0.6s;
+    width: 50px;
+    height: 50px;
+}
+.img5{
+    position: relative;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.img5:hover{
+    transition: all 0.6s;
+    width: 50px;
+    height: 50px;
+}
+.img6{
+    position: relative;
+    left: 40px;
+    width: 40px;
+    height: 40px;
+}
+.img6:hover{
+    transition: all 0.6s;
+    width: 50px;
+    height: 50px;
+}
+.img7{
+    position: relative;
+    left: 60px;
+    width: 40px;
+    height: 40px;
+}
+.img7:hover{
+    transition: all 0.6s;
+    width: 50px;
+    height: 50px;
+}
+.img8{
+    position: relative;
+    left: 80px;
+    width: 40px;
+    height: 40px;
+}
+.img8:hover{
+    transition: all 0.6s;
+    width: 50px;
+    height: 50px;
+}
+.img9{
+    position: relative;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+}
+.img9:hover{
+    transition: all 0.6s;
+    width: 50px;
+    height: 50px;
+}
+.choice{
+  font-size: 20px;
+  position: relative;  
+  left: 90px;
+  color: lightslategray;
+}
+.section-2{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+}
+.project-info{
+    text-align: center;
+    color: brown;
+}
+
+.project-img1{
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 300px;
+    height: 170px;
+}
+.project-img1:hover{
+    transition: all 0.6s;
+    width: 350px;
+    height: 200px;
+}
+.section-3{
+    background-color: white;
+
+}
+.form-container{
+    background-color: lightgreen;
+    width: 500px;
+    float: right;
+    margin-right: 20px;
+}
+.form-container1{
+    background-color: rgb(244, 188, 90);
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    
+}
+.inputfield1{
+    text-align: center;
+    color: brown;
+}
+.inputfield{
+    text-align: center;
+}
+.rightform{
+    text-align: center;
+    color: rgb(15, 104, 116);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+}
+.last-container{
+    color: brown;
+}
+
+#para-4{
+    float: right; 
+   width: 500px;
+   font-weight: 100;
+ text-align: center;
+ font-weight: 100;
+ font-size: 17px;
+}
